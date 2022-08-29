@@ -115,16 +115,29 @@ h6 {
 /* body */
 
 body {
-  /* width: 1440 px; */
   max-width: 1440px;
   min-height: 1440px;
   margin: 0 auto;
   margin-top: 50px;
   font-family: "Rubik";
-  /* background-color: aquamarine; */
-  /* or 140% */
-
   color: #0b132a;
+}
+
+@media (max-width: 1200px) {
+  body {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  body {
+    max-width: 750px;
+  }
 }
 
 /* .wraper{} */
@@ -137,8 +150,8 @@ body {
 
 .header {
   margin-bottom: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .header-left {
@@ -198,8 +211,8 @@ body {
 
 .block-One {
   margin-top: 130px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .block-One,
@@ -290,8 +303,8 @@ ul {
   max-width: 1140px;
   height: 200px;
   margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 7%;
+  margin-right: 7%;
 
   -webkit-box-shadow: 0px 77px 37px -5px rgba(13, 16, 37, 0.06);
   -moz-box-shadow: 0px 77px 37px -5px rgba(13, 16, 37, 0.06);
@@ -361,8 +374,8 @@ ul {
 .boxes {
   max-width: 1140px;
   margin-top: 60px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .box {
@@ -447,11 +460,12 @@ ul {
 .image-Global {
   margin-top: 155px;
   margin-bottom: 5px;
-  margin-left: 190px;
+  /* margin-left: 190px; */
+  margin-left: 8%;
 }
 
 .image-sponsored {
-  margin-left: 145px;
+  margin-left: 7%;
 }
 
 .three {
@@ -461,7 +475,7 @@ ul {
 .customers-wraper {
   max-width: 1430px;
   overflow: hidden;
-  margin-left: 100px;
+  margin-left: 5%;
 }
 
 .customers {
@@ -566,10 +580,13 @@ ul {
   margin-top: 0px;
   padding-top: 0;
 }
+/* .subscribe .head{
+     color: #f53855; 
+} */
 .block-subscribe {
   max-width: 1140px;
-  height: 233px;
-  margin-left: 150px;
+  height: auto;
+  margin-left: 7%;
   padding: 70px 60px 70px 60px;
   position: relative;
   top: 100px;
@@ -577,6 +594,7 @@ ul {
   box-sizing: border-box;
   background: #ffffff;
   border-radius: 10px;
+  align-items: center;
 }
 
 .block-subscribe .red-Batton {
